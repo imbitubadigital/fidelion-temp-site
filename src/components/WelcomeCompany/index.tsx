@@ -1,6 +1,6 @@
 import { ChevronRight } from 'lucide-react'
 import { Heading } from '../Heading'
-import { LinkButton } from '../LinkButton'
+
 import { Typography } from '../Typography'
 import Image from 'next/image'
 import { LinkButtonTarget } from '../LinkButtonTarget'

@@ -1,12 +1,6 @@
 import type { Metadata } from 'next'
 import { Sora, Inter } from 'next/font/google'
 import './globals.css'
-import { BackgroundPage } from '@/components/BackgroundPage'
-import { ContentWrapper } from '@/components/ContentWrapper'
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
-import { ButtonScrollTop } from '@/components/ButtonScrollTop'
-import { CookiesConsent } from '@/components/CookiesConsent'
 
 const sora = Sora({
   subsets: ['latin'],

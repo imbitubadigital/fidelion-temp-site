@@ -1,6 +1,5 @@
 import { ChevronRight } from 'lucide-react'
 
-import { Social } from '../Social'
 import { LinkButtonTarget } from '../LinkButtonTarget'
 import { useMenuStore } from '@/store/menu'
 
@@ -15,7 +14,6 @@ export default function GroupActions({ type }: GroupActionsProps) {
 
   return (
     <div className="flex gap-4 flex-col items-center xl:flex xl:flex-row  ">
-      <Social type={type} />
       <LinkButtonTarget
         href={process.env.NEXT_PUBLIC_LINK_GO_TO_COMPANY_DASHBOARD}
         onClick={settingCloseMenuStore}
