@@ -13,7 +13,7 @@ export default function GroupActions({ type }: GroupActionsProps) {
   )
 
   return (
-    <div className="flex gap-4 p10 flex-col items-center xl:flex xl:flex-row  ">
+    <div className="flex gap-4 p12 flex-col items-center xl:flex xl:flex-row  ">
       <LinkButtonTarget
         href={process.env.NEXT_PUBLIC_LINK_GO_TO_COMPANY_DASHBOARD}
         onClick={settingCloseMenuStore}
